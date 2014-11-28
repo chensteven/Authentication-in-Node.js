@@ -15,8 +15,8 @@ This is a boilerplate  authentication application using:
     git clone git@github.com:chensteven/authentication-boilerplate.git
 ##### Install all dependencies
     sudo npm install
-##### Open Terminal and start a MongoDB instance
+##### Start a MongoDB instance
     mongod
-##### Open another Terminal tab and start the application
+##### Start the application
     node app.js
 
