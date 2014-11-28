@@ -1,0 +1,21 @@
+extends layout
+
+block content
+	h3 Node Authenticaiton - Login Page
+
+	if message.length > 0
+		p #{message}
+
+	form(method="post" action="/login")
+		.form-group
+			label(for="username") Username
+			input(type="text" class="form-control" name="username")
+		.form-group
+			label(for="password") Password
+			input(type="password", class="form-control" name="password")
+		button(type="submit") Login
+
+	p Need an account? 
+		a(href="/signup") Signup
+	p Or go 
+		a(href="/") Home

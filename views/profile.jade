@@ -1,0 +1,18 @@
+extend layout
+block content
+	h3 Node Authentication - Profile Page
+	h4 Hello!
+	.information
+			p 
+				strong Id: #{user._id}
+			p 
+				strong Username: #{user.local.username}
+			p 
+				strong Password: #{user.local.password}
+			p
+				strong Email: #{user.email}
+			p
+				strong Date Joined: #{user.joined}
+	.control
+		p 
+			a(href="/logout") Logout
