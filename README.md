@@ -8,5 +8,9 @@ This is a very minimal authentication application using:
 - Passport (authentication library)
 
 ## Installation
+
+Open Terminal and start a MongoDB instance
+    mongod
+Open another Terminal tab and start the application
     node app.js
 
