@@ -9,8 +9,8 @@ This is a very minimal authentication application using:
 
 ## Installation
 
-Open Terminal and start a MongoDB instance
+#### Open Terminal and start a MongoDB instance
     mongod
-Open another Terminal tab and start the application
+#### Open another Terminal tab and start the application
     node app.js
 
