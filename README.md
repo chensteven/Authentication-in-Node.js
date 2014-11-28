@@ -9,6 +9,13 @@ This is a boilerplate  authentication application using:
 
 *It has no CSS*
 
+## Future To-dos
+- Client validation for forms
+- Facebook login
+- CSS
+- Show better profile
+- Refactor and clean code
+
 ## Installation
 
 ##### Clone the repository
