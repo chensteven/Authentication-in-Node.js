@@ -1,4 +1,4 @@
-# Authentication using Express with Passport
+## Authentication using Express with Passport
 
 This is a boilerplate  authentication application using:
 
@@ -16,7 +16,7 @@ This is a boilerplate  authentication application using:
 - Show better profile
 - Refactor and clean code
 
-## Installation
+### Installation
 
 ##### Clone the repository
     git clone git@github.com:chensteven/authentication-boilerplate.git

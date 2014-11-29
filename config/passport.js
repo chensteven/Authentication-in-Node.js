@@ -26,7 +26,6 @@ module.exports = function(passport) {
 				if (err) {
 					return done(err);
 				}
-
 				// Returns an error if the username is taken
 				if (user) { 
 					console.log('User exists');

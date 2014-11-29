@@ -1,8 +1,8 @@
 {
-  "name": "Authentication",
-  "author": "Steven Chen",
+  "name": "Authentication Application",
   "version": "0.0.1",
-  "description": "A very simple and minimal authentication using Passport-Local"
+  "author": "Steven Chen",
+  "description": "A very minimal authentication in Node.js using Passport-Local",
   "dependencies": {
     "bcrypt": "^0.8.0",
     "body-parser": "^1.9.3",
