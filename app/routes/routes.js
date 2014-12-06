@@ -26,6 +26,7 @@ module.exports = function(app, passport) {
 	// GET Profile Page
 	app.get('/profile', isLoggedIn, function(req, res) {
 		console.log('Logged in');
+		console.log(req);
 		res.render('profile', { user: req.user });
 	});
 	// GET Logout

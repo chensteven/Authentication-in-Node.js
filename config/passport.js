@@ -1,4 +1,3 @@
-/* B001 - Refer to Trello Board */
 var LocalStrategy = require('passport-local').Strategy;
 
 var User = require('../app/models/user'); // Load user model

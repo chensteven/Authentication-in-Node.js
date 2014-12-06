@@ -15,7 +15,7 @@ var app = express();
 
 // Server configuration
 app.set('view engine', 'jade'); // view engine
-app.set('views', __dirname + '/views'); // view files
+app.set('views', __dirname + '/app/views'); // view files
 app.use(express.static(__dirname + '/public')); // static files
 app.use(morgan('dev')); // log all requests
 app.use(cookieParser()); // read cookie (need for auth)
