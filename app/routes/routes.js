@@ -1,7 +1,7 @@
 module.exports = function(app, passport) {
 	// GET Home page
 	app.get('/', function(req, res) {
-		res.render('index');
+		res.render('login', { message: req.flash('loginMessage') });
 	});
 	// GET Login page
 	app.get('/login', function(req, res) {
