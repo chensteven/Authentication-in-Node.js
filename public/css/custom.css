@@ -1,2 +1,2 @@
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700);body{font-family:'Source Sans Pro', sans-serif}form{width:45%;margin:50px auto}.fi-torso{font-size:24px}.fi-lock{font-size:24px}
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700);#authentication-form{width:45%;margin:50px auto;border:1px solid #ddd}.form-header{padding:20px;border-bottom:1px solid #ddd}.form-header h3{color:#323333}.form-body{padding:20px}.fi-torso{font-size:24px}.fi-lock{font-size:24px}.profile{margin-top:50px}
 /*# sourceMappingURL=custom.css.map */

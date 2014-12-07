@@ -1,18 +1,35 @@
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700);
 
-body {
-	font-family: 'Source Sans Pro', sans-serif;
-}
-
 // Authentication Form - Container section
-form {
+#authentication-form {
 	width: 45%;
 	margin: 50px auto;
+	border: 1px solid #ddd;
+}
+.form-header {
+	padding: 20px;
+	border-bottom: 1px solid #ddd;
+}
+.form-header h3 {
+	color: #323333;
+}
+.form-body {
+	padding: 20px;
 }
 
+// Foundation Icons
+
+// Forms
 .fi-torso {
 	font-size: 24px;
 }
 .fi-lock {
 	font-size: 24px;
+}
+
+
+// Profile
+
+.profile {
+	margin-top: 50px;
 }

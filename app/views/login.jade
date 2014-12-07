@@ -6,31 +6,34 @@ block content
 			p #{message}
 	
 		form(id="authentication-form" method="post" action="/login")
-			.row
-				.large-9.large-centered.small-9.small-centered.columns
-					.row.collapse
-						.large-2.columns
-							span.prefix 
-								span.fi-torso
-						.large-10.columns
-							input(type="text" name="username" placeholder="Username")
-			.row
-				.large-9.large-centered.small-9.small-centered.columns
-					.row.collapse
-						.large-2.columns
-							span.prefix
-								span.fi-lock
-						.large-10.columns
-							input(type="password" name="password" placeholder="Password")
-			.row
-				.large-9.large-centered.small-9.small-centered.columns
-					.row
-						.large-12.columns
-							input(id="remember" type="checkbox" name="remember")
-							label(for="remember") Keep me logged in
-			.row
-				.large-9.large-centered.small-9.small-centered.columns
-					.row
-						.large-3.large-centered.columns
-							button(type="submit").button Login
+			.form-header
+				.row
+					.large-12.large-centered.small-12.small-centered.columns
+						h3.text-center Authentication
+			.form-body
+				.row
+					.large-9.large-centered.small-9.small-centered.columns
+						.row.collapse
+							.large-2.columns
+								span.prefix 
+									span.fi-torso
+							.large-10.columns
+								input(type="text" name="username" placeholder="Username")
+				.row
+					.large-9.large-centered.small-9.small-centered.columns
+						.row.collapse
+							.large-2.columns
+								span.prefix
+									span.fi-lock
+							.large-10.columns
+								input(type="password" name="password" placeholder="Password")
+				.row
+					.large-9.large-centered.small-9.small-centered.columns
+						.row
+							.large-12.columns
+								input(id="remember" type="checkbox" name="remember")
+								label(for="remember") Keep me logged in
+				.row
+					.large-3.large-centered.small-3.small-centered.columns
+						button(type="submit").button Login
 			

@@ -1,18 +1,31 @@
-extend layout
+extends layout
+
 block content
-	h3 Node Authentication - Profile Page
-	h4 Hello!
-	.information
-			p 
-				strong Id: #{user._id}
-			p 
-				strong Username: #{user.local.username}
-			p 
-				strong Password: #{user.local.password}
-			p
-				strong Email: #{user.email}
-			p
-				strong Date Joined: #{user.joined}
-	.control
-		p 
-			a(href="/logout") Logout
+
+	nav.top-bar
+		ul.title-area
+			li.name
+				h1
+					a(href="#") Authentication
+		section.top-bar-section
+			ul.right
+				li
+					a(href="#") Home
+				li.divider
+				li.has-form
+					a(href="/logout").button Logout
+	.profile
+		.row
+			.large-9.large-centered.small-9.small-centered.columns
+				.information
+					.panel
+						strong Id: #{user._id}
+					.panel 
+						strong Username: #{user.local.username}
+					.panel 
+						strong Password: #{user.local.password}
+					.panel
+						strong Email: #{user.email}
+					.panel
+						strong Date Joined: #{user.joined}
+
