@@ -3,100 +3,16 @@
 body {
 	font-family: 'Source Sans Pro', sans-serif;
 }
-// .authentication ul li {
-// 	list-style: none;
-// 	display: inline-block;
-// 	padding: 10px;
-// }
 
 // Authentication Form - Container section
-#authentication-form {
-	background: #fff;
-	border: 1px solid #ddd;
+form {
+	width: 45%;
 	margin: 50px auto;
-	width: 30%;
-}
-// Form - Header section
-.form-header {
-	background: #323333;
-	padding: 20px;
-}
-// Form Name - h1
-.form-name {
-	font-size: 18px;
-	margin: 0px;
-	color: #fff;
-	text-align: center;
-}
-// Form - Body section
-.form-body {
-	padding-top: 10px;
-}
-.form-group {
-	margin: 10px 0px;
-	text-align: center;
-}
-// Form - Input Labels
-.form-group label {
-	display: block;
-	text-align: left;
-	margin-left: 37px;
 }
 
-// Form - Inputs and Buttons
-.form-group input {
-	outline: none;
-	padding: 10px;
-	font-size: 14px;
-	width: 80%;
-	margin: 5px 0px;
+.fi-torso {
+	font-size: 24px;
 }
-
-// Form - Footer Section
-
-.form-options {
-	margin-left: 35px;
-}
-.form-options label span {
-	display: inline-block;
-	margin-left: 5px;
-	font-size: 14px;
-}
-::-webkit-input-placeholder {
-	font-size: 12px;
-}
-
-:-moz-placeholder { /* Firefox 18- */ 
-	font-size: 12px;
-}
-
-::-moz-placeholder {  /* Firefox 19+ */
-	font-size: 12px;
-}
-
-:-ms-input-placeholder {   
-	font-size: 12px;
-}
-.form-submit {
-	text-align: center;
-	margin: 25px 0px;
-}
-.form-submit button {
-	background: #323333;
-	border: 1px solid #323333;
-	color: #fff;	
-	border-radius: 5px;
-	padding: 10px;
-	font-size: 14px;
-	border-bottom: 3px solid #101010;
-	width: 40%;
-	display: inline-block;
-
-}
-.form-submit button:hover {
-
-}
-
-.inline-block {
-	display: inline-block;
+.fi-lock {
+	font-size: 24px;
 }

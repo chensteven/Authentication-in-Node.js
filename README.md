@@ -1,18 +1,23 @@
-## Authentication using Express with Passport
+## Authentication in Node.js
 
-This is a boilerplate  authentication application using:
+### Technology Stack
 
-- Express (server)
-- MongoDB/Mongoose (database/odm)
-- Jade (template)
-- Passport (authentication library)
+#### Build Tools
+- Grunt
 
-*It has no CSS*
+#### Frontend
+- Jade (HTML Template)
+- Foundation 5 (Responsive Framework)
+- SASS/SCSS 
+
+#### Backend
+- Express (Server)
+- MongoDB with Mongoose (Database)
+- Passport.js
 
 ## Future To-dos
-- Client validation for forms
+- Form Validations
 - Facebook login
-- CSS
 - Show better profile
 - Refactor and clean code
 

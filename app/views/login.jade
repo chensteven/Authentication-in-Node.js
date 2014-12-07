@@ -6,24 +6,31 @@ block content
 			p #{message}
 	
 		form(id="authentication-form" method="post" action="/login")
-			.form-header
-				h1.form-name
-					span Authentication
-			.form-body
-				.form-group
-					//- label(for="username") Username
-					input(type="text" class="form-control" name="username" placeholder="Username" required)
-				.form-group
-					//- label(for="password") Password
-					input(type="password", class="form-control" name="password" placeholder="Password" required)
-			.form-footer
-				.form-options
-					label(for="remember") 
-						input(type="checkbox" name="remember" value="remember")
-						span Keep me logged in 
-				.form-submit
-					button(name="submit" type="submit") Login
-			//- p Don't have an account? 
-			//- 	a(href="/signup") Create an Account
-			//- p 
-			//- 	a(href="/") Forgot Password
+			.row
+				.large-9.large-centered.small-9.small-centered.columns
+					.row.collapse
+						.large-2.columns
+							span.prefix 
+								span.fi-torso
+						.large-10.columns
+							input(type="text" name="username" placeholder="Username")
+			.row
+				.large-9.large-centered.small-9.small-centered.columns
+					.row.collapse
+						.large-2.columns
+							span.prefix
+								span.fi-lock
+						.large-10.columns
+							input(type="password" name="password" placeholder="Password")
+			.row
+				.large-9.large-centered.small-9.small-centered.columns
+					.row
+						.large-12.columns
+							input(id="remember" type="checkbox" name="remember")
+							label(for="remember") Keep me logged in
+			.row
+				.large-9.large-centered.small-9.small-centered.columns
+					.row
+						.large-3.large-centered.columns
+							button(type="submit").button Login
+			
