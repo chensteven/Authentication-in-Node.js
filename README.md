@@ -15,7 +15,7 @@
 - MongoDB with Mongoose (Database)
 - Passport.js
 
-## Future To-dos
+### Future To-dos
 - Form Validations
 - Facebook login
 - Show better profile
