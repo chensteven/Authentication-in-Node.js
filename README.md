@@ -5,15 +5,15 @@
 #### Build Tools
 - Grunt
 
-#### Frontend
+##### Frontend
 - Jade (HTML Template)
 - Foundation 5 (Responsive Framework)
-- SASS/SCSS 
+- SASS/SCSS (CSS Preprocessor)
 
-#### Backend
+##### Backend
 - Express (Server)
 - MongoDB with Mongoose (Database)
-- Passport.js
+- Passport.js (Authentication Library)
 
 ### Future To-dos
 - Form Validations
