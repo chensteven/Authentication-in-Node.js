@@ -2,7 +2,7 @@
 
 ### Technology Stack
 
-#### Build Tools
+##### Build Tools
 - Grunt
 
 ##### Frontend
