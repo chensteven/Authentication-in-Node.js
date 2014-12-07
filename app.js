@@ -7,7 +7,7 @@ var passport = require('passport'); // Authentication
 var morgan = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-var flash = require('connect-flash')
+var flash = require('connect-flash');
 var session = require('express-session');
 
 // Creating a server

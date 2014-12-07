@@ -16,6 +16,7 @@
 - Passport.js (Authentication Library)
 
 ### Future To-dos
+- Error Messages
 - Form Validations
 - Facebook login
 - Show better profile
@@ -31,4 +32,9 @@
     mongod
 ##### Start the application
     node app.js
+
+### Author Information
+
+Feel free to contact me at shchensteven@gmail.com
+
 

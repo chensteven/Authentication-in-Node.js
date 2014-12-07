@@ -14,9 +14,13 @@
 	color: #323333;
 }
 .form-body {
-	padding: 20px;
+	padding: 35px 0px 15px 0px;
+	border-bottom: 1px solid #ddd;
 }
-
+.form-footer {
+	padding: 20px;
+	font-size: 14px;
+}
 // Foundation Icons
 
 // Forms
@@ -26,7 +30,9 @@
 .fi-lock {
 	font-size: 24px;
 }
-
+.fi-mail {
+	font-size: 24px;
+}
 
 // Profile
 

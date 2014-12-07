@@ -25,8 +25,6 @@ module.exports = function(app, passport) {
 	}));
 	// GET Profile Page
 	app.get('/profile', isLoggedIn, function(req, res) {
-		console.log('Logged in');
-		console.log(req);
 		res.render('profile', { user: req.user });
 	});
 	// GET Logout
@@ -45,5 +43,4 @@ module.exports = function(app, passport) {
 		req.body.username = req.body.username.toLowerCase();
 		return next();
 	}
-	
-}
+};

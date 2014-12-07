@@ -16,16 +16,30 @@ block content
 					a(href="/logout").button Logout
 	.profile
 		.row
-			.large-9.large-centered.small-9.small-centered.columns
-				.information
-					.panel
-						strong Id: #{user._id}
-					.panel 
-						strong Username: #{user.local.username}
-					.panel 
-						strong Password: #{user.local.password}
-					.panel
-						strong Email: #{user.email}
-					.panel
-						strong Date Joined: #{user.joined}
-
+			.large-6.large-centered.small-6.small-centered.columns
+				table
+					thead
+						tr
+							th(width="") Properties
+							th(width="") Value
+					tbody
+						tr
+							th Id:
+							th #{user._id}
+					tbody
+						tr
+							th Username:
+							th #{user.joined}
+					tbody
+						tr
+							th Password:
+							th #{user.joined}
+					tbody
+						tr
+							th Email:
+							th #{user.joined}
+					tbody
+						tr
+							th Date Joined:
+							th #{user.joined}
+	

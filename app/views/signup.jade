@@ -1,23 +1,45 @@
 extends layout
 
 block content
-	h3 Node Authentication - Sign Up
-
-	if message.length > 0
-		p #{message}
+	.page-wrapper
+		if message.length > 0
+			p #{message}
 		
-	form(method="post", action="/signup")
-		.form-group
-			label(for="username") Username
-			input#username(type="text" name="username" required="required")
-		.form-group
-			label(for="email") Email
-			input#email(type="text" name="email" required="required")
-		.form-group
-			label(for="password") Password
-			input#password(type="password" name="password" required="required")
-		button(type="submit") Sign up
-	p Already have an account? 
-		a(href="/login") Login
-	p Or go 
-		a(href="/") Home
+		form(id="authentication-form" method="post" action="/signup")
+			.form-header
+				.row
+					.large-12.large-centered.small-12.small-centered.columns
+						h3.text-center Authentication
+			.form-body
+				.row
+					.large-9.large-centered.small-9.small-centered.columns
+						.row.collapse
+							.large-2.columns
+								span.prefix 
+									span.fi-torso
+							.large-10.columns
+								input(type="text" name="username" placeholder="Username")
+				.row
+					.large-9.large-centered.small-9.small-centered.columns
+						.row.collapse
+							.large-2.columns
+								span.prefix
+									span.fi-mail
+							.large-10.columns
+								input(type="email" name="email" placeholder="Email")
+				.row
+					.large-9.large-centered.small-9.small-centered.columns
+						.row.collapse
+							.large-2.columns
+								span.prefix
+									span.fi-lock
+							.large-10.columns
+								input(type="password" name="password" placeholder="Password")
+				.row
+					.large-3.large-centered.small-3.small-centered.columns
+						button(type="submit").button Register
+			.form-footer
+				.row
+					.large-5.large-centered.small-5.small-centered.columns
+						span Have an account? 
+							a(href="/login") Login
